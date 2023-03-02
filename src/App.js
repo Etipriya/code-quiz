@@ -1,7 +1,17 @@
 import "./App.css";
 
 const App = () => {
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      <div className="jumbotron text-center">
+        <h1>CODE QUIZ</h1>
+      </div>
+
+      <div>
+        <button></button>
+      </div>
+    </div>
+  );
 };
 
 export default App;
