@@ -7,8 +7,8 @@ const App = () => {
         <h1>CODE QUIZ</h1>
       </div>
 
-      <div>
-        <button></button>
+      <div className="position-absolute top-50 start-50 translate-middle start-quiz-container">
+        <button className="btn btn-success">START</button>
       </div>
     </div>
   );

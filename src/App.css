@@ -4,3 +4,9 @@
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }
+
+.start-quiz-container {
+  border: 1px solid #4d4c4c;
+  border-radius: 4px;
+  padding: 3rem 5rem;
+}
