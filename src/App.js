@@ -4,8 +4,8 @@ import StartQuiz from "./components/StartQuiz";
 import "./App.css";
 
 class App extends Component {
-  constructor(prop) {
-    super(prop);
+  constructor(props) {
+    super(props);
 
     this.state = {
       showStartContainer: true,
