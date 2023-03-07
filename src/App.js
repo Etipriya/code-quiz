@@ -1,6 +1,7 @@
 import { Component } from "react";
 
 import StartQuiz from "./components/StartQuiz";
+
 import "./App.css";
 
 class App extends Component {
@@ -26,7 +27,7 @@ class App extends Component {
         </div>
 
         {this.state.showStartContainer && (
-          <StartQuiz onClick={this.StartQuiz} />
+          <StartQuiz onClick={this.startQuiz} />
         )}
       </div>
     );
